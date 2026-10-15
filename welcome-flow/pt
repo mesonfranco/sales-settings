@@ -1,5 +1,5 @@
 {
-  "id": "070326_ios_july_sale",
+  "id": "261016_oct_sale",
   "start": [
     {
       "flowId": "default"
@@ -17,7 +17,7 @@
           "url": "drawable://tutorial_artwork_medal"
         },
         "videoArtwork": "drawable://tutorial_video_artwork",
-        "video": "https://v.flipaclip.com/pg6_7vWtzwvHgQJuXGZa_/master.m3u8",
+        "video": "https://v.flipaclip.com/fd7fbe81-88e2-491e-965b-1d65d3bb023c/master.m3u8",
         "secondaryActionTitle": "Explorar mais",
         "secondaryAction": "flipaclip://discover"
       }
@@ -27,7 +27,7 @@
       "type": 102,
       "showClose": true,
       "content": {
-        "placementId": "260703_july_sale"
+        "placementId": "261016_october_sale"
       }
     },
     {

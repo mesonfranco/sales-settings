@@ -1,5 +1,5 @@
 {
-  "id": "070326_android_july_sale",
+  "id": "261016_oct_sale",
   "start": [
     {
       "flowId": "default"
@@ -11,14 +11,14 @@
       "type": 100,
       "showClose": true,
       "content": {
-        "title": "はじめてのアニメーション作品を作ろう！",
-        "description": "2,000万人以上がもう作っています！",
+        "title": "¡Haz tu primera animación!",
+        "description": "¡Más de 20 Millones de personas lo hicieron también!",
         "artwork": {
           "url": "drawable://tutorial_artwork_medal"
         },
         "videoArtwork": "drawable://tutorial_video_artwork",
-        "video": "https://v.flipaclip.com/fv95ErFxk9B9FF5lvqypX/master.m3u8",
-        "secondaryActionTitle": "詳しく見る",
+        "video": "https://v.flipaclip.com/cbda2ff0-e9a6-4b4f-b1de-ac5b31ac28d8/master.m3u8",
+        "secondaryActionTitle": "Descubre más",
         "secondaryAction": "flipaclip://discover"
       }
     },
@@ -27,28 +27,28 @@
       "type": 102,
       "showClose": true,
       "content": {
-        "placementId": "260703_july_sale"
+        "placementId": "261016_october_sale"
       }
     },
     {
       "stepId": "survey",
       "type": 101,
       "content": {
-        "id": "061124_jp",
+        "id": "061124_es",
         "showClose": false,
         "hideProgress": true,
         "startFormId": "intent_screen",
         "forms": [
           {
             "id": "intent_screen",
-            "title": "FlipaClipを利用する理由は？",
-            "description": "1つ選んでください",
+            "title": "Qué te trae a FlipaClip?",
+            "description": "Elegí una opción.",
             "type": 0,
             "hideSkip": false,
             "action": {
               "nextAction": [
                 {
-                  "formId": "end"
+                  "formId": "next"
                 }
               ]
             },
@@ -58,22 +58,22 @@
               "options": [
                 {
                   "id": "intent_learn",
-                  "title": "アニメーションの作り方を学びたい ",
+                  "title": "Quiero aprender a animar",
                   "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/MoZcySgktDwSIUO.png"
                 },
                 {
                   "id": "intent_post",
-                  "title": "ソーシャルメディアに投稿したい",
+                  "title": "Quiero postear en redes sociales",
                   "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/JJNqvDu33f2zj6s.png"
                 },
                 {
                   "id": "intent_seeking",
-                  "title": "学校や仕事で使うモバイルツールを探している",
+                  "title": "Busco una app para la escuela o el trabajo",
                   "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/BKaNfZCcvgqZzxY.png"
                 },
                 {
                   "id": "intent_content",
-                  "title": "クールなアニメコンテンツをチェックしたい",
+                  "title": "Quiero mirar videos de animaciones",
                   "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/4XXkhNmIYp78fVW.png"
                 }
               ]

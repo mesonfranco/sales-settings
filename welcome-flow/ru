@@ -1,5 +1,5 @@
 {
-  "id": "070326_ios_default_july_sale",
+  "id": "261016_oct_sale",
   "start": [
     {
       "flowId": "default"
@@ -11,14 +11,14 @@
       "type": 100,
       "showClose": true,
       "content": {
-        "title": "Make your first animation!",
-        "description": "20+ Million people made this, too!",
+        "title": "Создай свою первую анимацию!",
+        "description": "20+ миллионов человек также занимаются этим!",
         "artwork": {
           "url": "drawable://tutorial_artwork_medal"
         },
         "videoArtwork": "drawable://tutorial_video_artwork",
-        "video": "https://v.flipaclip.com/NERDB20i9kBKik2L1v9yH/master.m3u8",
-        "secondaryActionTitle": "Discover more",
+        "video": "https://v.flipaclip.com/ff88a487-2392-4424-8228-e42b25042447/master.m3u8",
+        "secondaryActionTitle": "Узнать больше",
         "secondaryAction": "flipaclip://discover"
       }
     },
@@ -27,22 +27,27 @@
       "type": 102,
       "showClose": true,
       "content": {
-        "placementId": "260703_july_sale"
+        "placementId": "261016_october_sale"
       }
+    },
+    {
+      "stepId": "push_permission_request",
+      "type": 103,
+      "showClose": false
     },
     {
       "stepId": "survey",
       "type": 101,
       "content": {
-        "id": "042424_exp_survey",
+        "id": "061124_ru",
         "showClose": false,
         "hideProgress": true,
         "startFormId": "intent_screen",
         "forms": [
           {
             "id": "intent_screen",
-            "title": "What brings you to FlipaClip?",
-            "description": "Pick one.",
+            "title": "Что привело вас на FlipaClip?",
+            "description": "Выберите один",
             "type": 0,
             "hideSkip": false,
             "action": {
@@ -58,22 +63,22 @@
               "options": [
                 {
                   "id": "intent_learn",
-                  "title": "I want to learn how to animate",
+                  "title": "Хочу научиться создавать анимацию.",
                   "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/MoZcySgktDwSIUO.png"
                 },
                 {
                   "id": "intent_post",
-                  "title": "I want to post on social media",
+                  "title": "Хочу публиковать посты в соцсетях.",
                   "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/JJNqvDu33f2zj6s.png"
                 },
                 {
                   "id": "intent_seeking",
-                  "title": "Seeking a mobile tool for school or work",
+                  "title": "Ищу мобильный инструмент для школы или работы.",
                   "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/BKaNfZCcvgqZzxY.png"
                 },
                 {
                   "id": "intent_content",
-                  "title": "I want to check out cool animated content",
+                  "title": "Хочу смотреть крутой анимационный контент.",
                   "artwork": "https://s3.amazonaws.com/s.flipaclip.com/articles/4XXkhNmIYp78fVW.png"
                 }
               ]
@@ -81,11 +86,6 @@
           }
         ]
       }
-    },
-    {
-      "stepId": "push_permission_request",
-      "type": 103,
-      "showClose": false
     }
   ],
   "flows": {

@@ -1,0 +1,62 @@
+{
+  "event_make_movie": {
+    "dst": "261016_october_sale"
+  },
+  "feature_add_image": {
+    "dst": "261016_october_sale"
+  },
+  "feature_more_layers": {
+    "dst": "261016_october_sale"
+  },
+  "feature_audio_package": {
+    "dst": "261016_october_sale"
+  },
+  "feature_project_backup": {
+    "dst": "261016_october_sale"
+  },
+  "feature_brushes": {
+    "dst": "261016_october_sale"
+  },
+  "feature_build_png_seq": {
+    "dst": "261016_october_sale"
+  },
+  "feature_custom_canvas": {
+    "dst": "261016_october_sale"
+  },
+  "feature_grid_settings": {
+    "dst": "261016_october_sale"
+  },
+  "feature_onion_settings": {
+    "dst": "261016_october_sale"
+  },
+  "feature_import_audio": {
+    "dst": "261016_october_sale"
+  },
+  "feature_magic_cut": {
+    "dst": "261016_october_sale"
+  },
+  "feature_import_video": {
+    "dst": "261016_october_sale"
+  },
+  "feature_watermark": {
+    "dst": "261016_october_sale"
+  },
+  "feature_timelapse": {
+    "dst": "261016_october_sale"
+  },
+  "home_subscription_button": {
+    "dst": "261016_october_sale"
+  },
+  "house_ad": {
+    "dst": "261016_october_sale"
+  },
+  "settings_subscription": {
+    "dst": "261016_october_sale"
+  },
+  "stage_subscription_button": {
+    "dst": "261016_october_sale"
+  },
+  "feature_ai_audio": {
+    "dst": "261016_october_sale"
+  }
+}
