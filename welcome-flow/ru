@@ -1,5 +1,5 @@
 {
-  "id": "261016_oct_sale_ru",
+  "id": "black_friday_sale_ru",
   "start": [
     {
       "flowId": "default"
@@ -7,7 +7,7 @@
   ],
   "steps": [
     {
-      "stepId": "tutorial",
+      "stepId": "path_selection",
       "type": 100,
       "showClose": true,
       "content": {
@@ -27,7 +27,7 @@
       "type": 102,
       "showClose": true,
       "content": {
-        "placementId": "261016_october_sale"
+        "placementId": "sale_20261126_black_friday"
       }
     },
     {
@@ -52,6 +52,11 @@
             "hideSkip": false,
             "action": {
               "nextAction": [
+                {
+                  "formId": "end"
+                }
+              ],
+              "skipAction": [
                 {
                   "formId": "end"
                 }
@@ -116,15 +121,15 @@
         "stepId": "survey",
         "proceed": [
           {
-            "stepId": "tutorial"
+            "stepId": "path_selection"
           }
         ],
         "dismiss": {
-          "stepId": "tutorial"
+          "stepId": "path_selection"
         }
       },
       {
-        "stepId": "tutorial",
+        "stepId": "path_selection",
         "proceed": [
           {
             "stepId": "finished"

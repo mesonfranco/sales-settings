@@ -1,5 +1,5 @@
 {
-  "id": "261016_oct_sale_jp",
+  "id": "black_friday_sale_jp",
   "start": [
     {
       "flowId": "default"
@@ -27,7 +27,7 @@
       "type": 102,
       "showClose": true,
       "content": {
-        "placementId": "261016_october_sale"
+        "placementId": "sale_20261126_black_friday"
       }
     },
     {
